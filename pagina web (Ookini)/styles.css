@@ -1,0 +1,194 @@
+body {
+background-color:rgb(240, 207, 177);
+font-family: Arial;
+color:#1A1A1A ;
+text-align: center;
+ font-size: 17px;
+}
+H1 {
+    COLOR: #5B9B8E;
+    font-size:2.5rem;
+}
+header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #1A1A1A;
+    text-align: left;
+}
+nav a {
+    color:#5B9B8E;
+}
+main {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+     font-size: 22px;
+}
+.metodos-titulo {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.precio {
+  font-weight: bold;
+  color: #1A1A1A;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-left: 0.25rem;
+}
+#boton-reservas {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.25rem;
+    background-color: #5B9B8E;
+    color:#F2F0EA;
+    border: none;
+    font-family:georgia, serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#contador-tazas {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#5B9B8E;
+}
+
+
+
+header {
+    background: #f4eee5;
+    color: #35251e;
+    text-align: center;
+    padding: 55px 20px 25px;
+    border-bottom: 1px solid #d8c7b5;
+}
+
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    font-weight: normal;
+    letter-spacing: 12px;
+    margin: 0;
+    color: #39251c;
+    line-height: 1.2;
+}
+
+
+header h2 {
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #8a6b54;
+    margin: 12px 0 35px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-top: 1px solid #ddcdbd;
+    padding-top: 20px;
+}
+
+
+header nav a {
+    color: #49352a;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    transition: color 0.3s ease,
+                background-color 0.3s ease;
+}
+
+
+header nav a:hover {
+    background-color: #49352a;
+    color: #f4eee5;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f0cfae;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    padding: 30px 20px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        letter-spacing: 6px;
+    }
+
+    header nav a {
+        padding: 10px;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+
+    main {
+        padding: 20px 16px;
+    }
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px 20px;
+    background-color: #49352a;
+    color: #f4eee5;
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.horario-icono {
+    font-size: 1.2rem;
+    color: #d8b99a;
+}
+
+.horario-separador {
+    color: #d8b99a;
+}
+
+@media (max-width: 480px) {
+    .horario {
+        gap: 7px;
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+        padding: 12px 8px;
+    }
+}
+
+.foto-cafeteria {
+    content: url("https://static.platzi.com/media/uploads/ookini_barra_69f564f468.png");
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+     text-align: left;
+}    
