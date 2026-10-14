@@ -1,5 +1,5 @@
 body {
-background-color:rgb(240, 207, 177);
+background-color:rgb(248, 187, 123);
 font-family: Arial;
 color:#1A1A1A ;
 text-align: center;
@@ -13,6 +13,7 @@ header {
     padding: 1.5rem 2rem;
     border-bottom: 1px solid #1A1A1A;
     text-align: left;
+    background-color: chocolate;
 }
 nav a {
     color:#5B9B8E;
