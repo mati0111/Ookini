@@ -5,16 +5,6 @@ color:#1A1A1A ;
 text-align: center;
  font-size: 17px;
 }
-H1 {
-    COLOR: #5B9B8E;
-    font-size:2.5rem;
-}
-header {
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid #1A1A1A;
-    text-align: left;
-    background-color: chocolate;
-}
 nav a {
     color:#5B9B8E;
 }
@@ -63,6 +53,7 @@ header {
     text-align: center;
     padding: 55px 20px 25px;
     border-bottom: 1px solid #d8c7b5;
+    
 }
 
 
@@ -109,7 +100,6 @@ header nav a {
     padding: 12px 18px;
     border-radius: 3px;
     transition: color 0.3s ease,
-                background-color 0.3s ease;
 }
 
 
